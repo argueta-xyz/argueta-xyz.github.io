@@ -1,0 +1,3 @@
+- name: MCS-4 for<span class="color"> Pynq</span>
+  description: An implementation of the venerable <a href="https://en.wikipedia.org/wiki/Intel_4004"><strong>Intel 4004</strong></a> processing system in SystemVerilog on the Pynq-Z2, a Xilinx Zynq SOC vendor board. This project includes support software and examples allowing one to immediately run example code in a hardware 4004 running at 150MHz from the comfort of their browser.</p> <p>Available on <a href="https://github.com/argueta-xyz/mcs-4-pynq/">GitHub</a>
+  img: assets/img/bg-masthead.jpg
