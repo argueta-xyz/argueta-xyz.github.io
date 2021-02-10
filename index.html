@@ -1,1 +1,42 @@
-Sup earth.
+---
+layout: default
+title: Home
+---
+<header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+            <h1 class="mx-auto my-0 text-uppercase"><span class="color">Argueta </span>i/o</h1>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5">A landing page for some things.</h2>
+            <a class="btn btn-primary js-scroll-trigger" href="#projects">&#x25BC;fun stuff&#x25BC;</a>
+        </div>
+    </div>
+</header>
+<section class="about-section text-center" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="text-white mb-4">FPGAs and Servers, Gadgets and Photons</h2>
+                <p class="text-white-50">
+                    Open source pkgs tied up with std::strings. These are a few of my favorite things.
+                    See my Github or LinkedIn for the rest.
+                </p>
+            </div>
+        </div>
+        <img class="img-fluid" src="assets/img/ipad.png" alt="" />
+    </div>
+</section>
+<section class="projects-section bg-dark" id="projects">
+    <div class="container">
+		{% for project in site.data.projects %}
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="{{ project.img }}" alt="" /></div>
+            <div class="col-xl-4 col-lg-5">
+                <div class="featured-text text-center text-lg-left text-white">
+                    <h4>{{ project.name }}</h4>
+                    <p class="text-white-50 mb-0">{{ project.description }}</p>
+                </div>
+            </div>
+        </div>
+		{% endfor %}
+    </div>
+</section
