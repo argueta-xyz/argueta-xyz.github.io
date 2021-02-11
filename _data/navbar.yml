@@ -1,6 +1,6 @@
-- name: Home
-  link: /
 - name: Projects
-  link: "#projects"
+  link: "/#projects"
+- name: Lab
+  link: https://lab.argueta.xyz
 - name: GitHub
   link: https://github.com/argueta-xyz/
