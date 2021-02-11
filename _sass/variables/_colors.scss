@@ -1,0 +1,16 @@
+// Override Bootstrap color system
+
+$teal: #64a19d;
+$black: #000000;
+$palered: #e53835;
+
+// Override Bootstrap default state colors
+
+$primary: $palered;
+
+// Add colors to the color map
+
+$theme-colors: (
+    "black": $black,
+    "palered": $palered,
+);

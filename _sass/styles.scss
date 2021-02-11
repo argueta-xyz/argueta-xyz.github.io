@@ -1,0 +1,21 @@
+// Import variables
+@import "./variables.scss";
+
+// Import Bootstrap
+@import "bootstrap/bootstrap.scss";
+@import "bootstrap-4-jekyll/bootstrap-4-jekyll";
+
+// Global CSS
+@import "./global.scss";
+
+// Components
+@import "./components/navbar.scss";
+@import "./components/buttons.scss";
+
+// Sections
+@import "./sections/masthead.scss";
+@import "./sections/about.scss";
+@import "./sections/projects.scss";
+@import "./sections/signup.scss";
+@import "./sections/contact.scss";
+@import "./sections/footer.scss";
