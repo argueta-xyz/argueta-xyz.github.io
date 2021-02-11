@@ -1,7 +1,6 @@
-/_site
-/Gemfile.lock
-/dist/bootstrap
-/dist/jquery
-/.idea
-/*.iml
-_sass/bootstrap/
+_site
+.sass-cache
+.jekyll-metadata
+node_modules
+Gemfile.lock
+.jekyll-cache
