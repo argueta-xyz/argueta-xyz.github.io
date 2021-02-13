@@ -41,11 +41,12 @@
             color: fade-out($white, 0.5);
         }
         .nav-link {
+            font-family: $font-family-special;
             transition: none;
             padding: 2rem 1.5rem;
-            color: fade-out($white, 0.5);
+            color: fade-out($white, 0.3);
             &:hover {
-                color: fade-out($white, 0.25);
+                color: fade-out($white, 0.1);
             }
             &:active {
                 color: $white;

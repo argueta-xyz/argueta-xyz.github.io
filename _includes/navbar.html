@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               {% for item in site.data.navbar %}
-              <a class="nav-item nav-link" href="{{ item.link }}">{{ item.name }}</a>
+              <a class="nav-item nav-link text-lowercase" href="{{ item.link }}">{{ item.name }}</a>
               {% endfor %}
             </ul>
         </div>
